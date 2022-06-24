@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
-# list of currently running processes by all users.
+#!/usr/bin/env bash 
+# display all process (a): user-oriented (u), w/wo TTY (x), show heirachy (f)
 
-ps -auxf
+ps -auxf:x
