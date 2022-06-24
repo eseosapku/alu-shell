@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#script output process running with all information about it
+# list of currently running processes by all users.
 
-ps auxf
+ps -auxf
